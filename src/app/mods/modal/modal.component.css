@@ -1,0 +1,8 @@
+.actions:empty {
+    display: none;
+}.action-default {
+    display: none;
+}
+.actions:empty + .actions-default {
+    display: block;
+}
